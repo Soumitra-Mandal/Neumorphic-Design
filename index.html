@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism</title>
+</head>
+<body>
+    <div class="container">
+        <div id="clc"><span id="time">18:30 PM</span></div>
+        <div class="btn" id='bt'><i class="fa fa-bluetooth-b" aria-hidden="true"></i></div>
+        <div class="btn" id='wifi'><i class="fa fa-wifi" aria-hidden="true"></i></div>
+        <div class="btn" id='silent'><i class="fa fa-bell-slash" aria-hidden="true"></i></div>
+        <div class="btn" id='location'><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+        <i class="fa fa-search" id='search_icon' aria-hidden="true"></i>
+        <input type="text" name="search" id="search" placeholder='Search...' autocomplete="off">
+        <input type="range" min="0" max="100" value="40" class="slider" id="myRange" onchange='slider(value)'>
+        <p id="text">40</p>
+        <div id='info'>
+            <h3>Neumorphism</h3>
+            <p id='data'>Neumorphism is a new take on skeuomorphic design. Even though it relates to skeuomorphism, there is a new focus in the entire design style with neumorphism. This focus is not necessarily on the contrast or similarity between the real and digital worlds, but rather the color palette.</p>
+        </div>
+
+        <p id='copyright'>&copy 2021 Soumitra Mandal</p>
+      
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
